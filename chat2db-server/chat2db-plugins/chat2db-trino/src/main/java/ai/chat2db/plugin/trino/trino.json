@@ -1,0 +1,18 @@
+{
+  "dbType": "TRINO",
+  "supportDatabase": true,
+  "supportSchema": true,
+  "driverConfigList": [
+    {
+      "url": "jdbc:trino://localhost:8080/",
+      "custom": false,
+      "defaultDriver": true,
+      "downloadJdbcDriverUrls": [
+        "https://repo1.maven.org/maven2/io/trino/trino-jdbc/471/trino-jdbc-471.jar"
+      ],
+      "jdbcDriver": "trino-jdbc-471.jar",
+      "jdbcDriverClass": "io.trino.jdbc.TrinoDriver"
+    }
+  ],
+  "name": "Trino"
+}
