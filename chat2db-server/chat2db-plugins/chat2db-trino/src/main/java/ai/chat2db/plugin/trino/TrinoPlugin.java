@@ -7,7 +7,7 @@ import ai.chat2db.spi.Plugin;
 import ai.chat2db.spi.config.DBConfig;
 import ai.chat2db.spi.util.FileUtils;
 
-public class PrestoPlugin implements Plugin {
+public class TrinoPlugin implements Plugin {
     @Override
     public DBConfig getDBConfig() {
         return FileUtils.readJsonValue(this.getClass(),"trino.json", DBConfig.class);
